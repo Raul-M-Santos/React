@@ -1,4 +1,5 @@
 import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
   const name = "raul";
@@ -17,6 +18,8 @@ function App() {
       <p>Soma {sum(2, 2)}</p>
       <p>Em maiusculas {newName}</p>
       <img src={url} alt="samengo" />
+      <HelloWorld />
+      
     </div>
   );
 }
