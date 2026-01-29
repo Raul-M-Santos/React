@@ -2,7 +2,7 @@ function Frase() {
   return (
     <div>
       <p>Frase feita no componente JSX</p>
-      <p>samengo</p>
+      <p>Teste</p>
     </div>
   );
 }
